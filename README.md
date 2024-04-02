@@ -8,8 +8,9 @@
 6. Create a slice called **UserSlice.ts** and a component called **User.tsx**
 7. Inside the slice file, create 3 states: firstname, lastname, and age. You can decide what the default values are
 8. Create a reducer to increment the age by 1
-9. Create a **store.js** and wrap your app with a Redux store provider
-10. On your User.tsx component, output the firstname, lastname, and age from the Redux store
-11. Create a "Increment age" button inside the same component. Clicking this button will increase the age by 1
-12. After you are done, push your changes to dev branch
-13. Create a pull request from dev to master and merge
+9. Create a **store.js** and setup your store
+10. Wrap your app with the created Redux store provider
+11. On your User.tsx component, output the firstname, lastname, and age from the Redux store
+12. Create a "Increment age" button inside the same component. Clicking this button will increase the age by 1
+13. After you are done, push your changes to dev branch
+14. Create a pull request from dev to master and merge
